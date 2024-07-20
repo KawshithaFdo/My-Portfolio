@@ -13,6 +13,8 @@ import github from "../../assets/technologies/github.svg";
 import mongodb from "../../assets/technologies/mongodb.png";
 import mysql from "../../assets/technologies/musql.png";
 import vscode from "../../assets/technologies/visual-studio-code.svg";
+import yarn from "../../assets/technologies/yarn.png";
+import aws from "../../assets/technologies/aws.png";
 
 export const iconsData = [
   {
@@ -90,5 +92,15 @@ export const iconsData = [
     id: 15,
     icon: vscode,
     name: "Visual Studio Code",
+  },
+  {
+    id: 16,
+    icon: yarn,
+    name: "Node Package Manager",
+  },
+  {
+    id: 17,
+    icon: aws,
+    name: "Aws-cloud services",
   },
 ];

@@ -12,7 +12,6 @@ import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
 import myImage from "../../assets/img.jpg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
-import resume from "../../assets/cv-P.K.Fernando.pdf";
 
 const About = () => {
   return (
@@ -28,20 +27,24 @@ const About = () => {
         </AboutImageContainer>
         <AboutDetailsContainer>
           <StyledParagraph>
-            My name is Praveen Kawshitha Fernando, currently pursuing Graduate Diploma in Software Engineering(GDSE)
-            in Institute of Java and Software Engineering(IJSE).
-            I am a Full-stack developer in Sri-lanka.
+            I am a Full-stack Developer based in Sri Lanka, with a Graduate
+            Diploma in Software Engineering (GDSE) from the Institute of Java
+            and Software Engineering (IJSE). Having completed the GDSE program,
+            I am currently working as an Associate Software Engineer in the
+            industry. My expertise spans both front-end and back-end
+            development, allowing me to create comprehensive and efficient
+            software solutions.
           </StyledParagraph>
           <StyledParagraph>
-            I love to design and create responsive websites or web apps from
+            I love to design and create responsive websites(webapps) or mobile apps from
             scratch. The technologies, tools and languages I am familier with
-            HTML, CSS, JavaScript, REACT JS, Java EE,
-            Bootstrap, REACT-NATIVE,Spring,Node JS, Git and GitHub.
-            Most familier in VS Code and Intelij-Idea.
+            HTML, CSS, JavaScript, REACT JS, Java EE, Bootstrap,
+            REACT-NATIVE,Spring,Node JS, Git and GitHub. Most familier in VS
+            Code and Intelij-Idea.
           </StyledParagraph>
           <Resume>
             <ResumeLink
-              href={resume}
+              // href={resume}  TODO
               icon={downloadIcon}
               download="resume-Praveen-Kawshitha"
             >
