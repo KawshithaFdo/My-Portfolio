@@ -9,7 +9,7 @@ import {
   StyledNavbar,
   StyledNavLinks,
 } from "../styles/Navbar.styled";
-import logo from "../../assets/logo2.PNG";
+import logo from "../../assets/logo2.png";
 import { animateScroll as scroll } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
